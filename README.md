@@ -1,8 +1,17 @@
+author: Alvaro Perez Rey
+summary: Resumen del CodeLab
+id: identificador-unico-del-codelab
+categories: codelab,markdown
+environments: Web
+status: Published
+feedback link: Un enlace en el que los usuarios puedan darte feedback (quizás creando un issue en un repositorio de git)
+analytics account: ID de Google Analytics
+
 # <p align="center">Bastionado del arranque del sistema</p>
-<p align="center"><img src="assets/portada.png" width="400"></p>
 
 ## Parte 1
 En esta primera parte del proyecto, vamos a elaborar una guía para bastionar la BIOS/UEFI
+<p align="center"><img src="assets/portada.png" width="400"></p>
 
 ## Parte 2
 En esta segunda parte del proyecto, vas a elaborar una guía para bastionar el arranque de un sistema Debian actual a tu elección.
@@ -45,11 +54,8 @@ Copia ahora en la sección 2 (debajo de Duration):
 ### Añade una imagen
 ¡Añadiendo una imagen!
 
-![Descripción de la imagen](img/prueba.png)
+![Descripción de la imagen](assets/portada.png)
 
 ### Incrusta un iframe
 
 ![https://codepen.io/tzoght/embed/yRNZaP](https://en.wikipedia.org/wiki/File:Example.jpg "Try Me Publisher")
-
-Puedes encontrar más ejemplos aquí.
-Back
