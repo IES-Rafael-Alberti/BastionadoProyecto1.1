@@ -7,13 +7,14 @@ status: Published
 feedback link: Un enlace en el que los usuarios puedan darte feedback (quizás creando un issue en un repositorio de git)
 analytics account: ID de Google Analytics
 
-# Título del CodeLab
+# Bastionado del arranque del sistema
+![This is an image](https://literate-engine-5b034d58.pages.github.io/docs/proyectos/assets/proyecto1.png)
 
-## Sección 1
-Duration: 0:10:00
+## Parte 1
+En esta primera parte del proyecto, vamos a elaborar una guía para bastionar la BIOS/UEFI
 
-## Sección 2
-Duration: 0:05:00
+## Parte 2
+En esta segunda parte del proyecto, vas a elaborar una guía para bastionar el arranque de un sistema Debian actual a tu elección.
 
 ### Cajas de información
 Texto plano dentro de cajas de información verdes y amarillas
