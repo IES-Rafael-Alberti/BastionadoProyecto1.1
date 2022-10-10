@@ -1,13 +1,4 @@
-author: Nombre del autor
-summary: Resumen del CodeLab
-id: identificador-unico-del-codelab
-categories: codelab,markdown
-environments: Web
-status: Published
-feedback link: Un enlace en el que los usuarios puedan darte feedback (quizás creando un issue en un repositorio de git)
-analytics account: ID de Google Analytics
-
-# Bastionado del arranque del sistema
+# <p align="center">Bastionado del arranque del sistema</p>
 <p align="center"><img src="assets/portada.png" width="400"></p>
 
 ## Parte 1
