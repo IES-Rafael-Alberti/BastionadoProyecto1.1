@@ -1,6 +1,6 @@
 author: Alvaro Perez Rey
 summary: Resumen del CodeLab
-id: identificador-unico-del-codelab
+id: proyecto-1-bastionado
 categories: codelab,markdown
 environments: Web
 status: Published
@@ -9,7 +9,7 @@ analytics account: ID de Google Analytics
 
 # <p align="center">Proyecto 1: Bastionado del arranque del sistema</p>
 
-## Parte 1
+## Parte 1.1
 En esta primera parte del proyecto, vamos a elaborar una guía para bastionar la BIOS/UEFI
 
 <p align="center"><img src="assets/portada.png" width="400"></p>
@@ -52,7 +52,7 @@ Texto plano en una lista con viñetas:
 
 ![https://codepen.io/tzoght/embed/yRNZaP](https://en.wikipedia.org/wiki/File:Example.jpg "Try Me Publisher")
 
-## Parte 2
+## Parte 1.2
 En esta segunda parte del proyecto, vas a elaborar una guía para bastionar el arranque de un sistema Debian actual a tu elección.
 
 <p align="center"><img src="assets/portada.png" width="400"></p>
