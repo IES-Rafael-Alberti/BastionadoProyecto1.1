@@ -1,29 +1,65 @@
 author: Alvaro Perez Rey
 summary: Resumen del CodeLab
-id: proyecto-1-bastionado
+id: proyecto-1.1-bastionado
 categories: codelab,markdown
 environments: Web
 status: Published
 feedback link: Un enlace en el que los usuarios puedan darte feedback (quizás creando un issue en un repositorio de git)
 analytics account: ID de Google Analytics
 
-# <p align="center">Proyecto 1: Bastionado del arranque del sistema</p>
+# Proyecto 1.1: Protección de la BIOS/UEFI
 
-## Parte 1.1
-En esta primera parte del proyecto, vamos a elaborar una guía para bastionar la BIOS/UEFI
+## Introducción
 
-<p align="center"><img src="assets/portada.png" width="400"></p>
+<p align="center"><img src="assets/inicio.png" width="600"></p>
 
-### Cajas de información
-Texto plano dentro de cajas de información verdes y amarillas
+La BIOS, o UEFI en su versión mas moderna, es lo primero que se ejecuta en un ordenador al encenderse, su finción es recordar al dispositivo quién es, que hardware tiene instalado y qué es lo primero que debe arrancar.
+
+Si no configuramos los parámetros necesarios en la BIOS para aportar seguridad al sistema, es muy sencillo manipular el arranque para conseguir acceso al dispositivo. A cotninuación explicaremos qué parámetros configurables, depende del modelo, son los mas comunes modificar para aumentar la seguridad de nuestro equipo.
+
+## Contraseña de administración de la BIOS
+<p align="center"><img src="assets/security_1.png" width="600"></p>
+
+## Contraseña de usuario de la BIOS
+<p align="center"><img src="assets/security_1.png" width="600"></p>
+
+## Contraseña de arranque del dispositivo
+<p align="center"><img src="assets/security_1.png" width="600"></p>
+
+## Permiso de arranque desde dispositivo USB
+<p align="center"><img src="assets/security_1.png" width="600"></p>
+
+## Orden de arranque
+<p align="center"><img src="assets/boot.png" width="600"></p>
+
+## Secure Boot
+<p align="center"><img src="assets/security_4.png" width="600"></p>
+
+## Otros parámetros
+<p align="center"><img src="assets/avanzados.png" width="600"></p>
+<p align="center"><img src="assets/security_2.png" width="600"></p>
+<p align="center"><img src="assets/security_3.png" width="600"></p>
+
+## Conclusión
+
+### Metodos para modificar la BIOS
 
 Negative
-: Esto aparecerá en una caja de información amarilla.
+: Utilizar contraseñas maestras que tienen algunos fabricantes
+
+Negative
+: Quitar la pila de boton que tiene para que se borre la configuración previa de la BIOS
+
+### Maximizar la seguridad
+Texto plano dentro de cajas de información verdes y amarillas
 
 Positive
-: Esto aparecerá en una caja de información verde.
+: Cifrar el almacenamiento
 
-¡Ya tienes tus cajas de información creadas!
+Positive
+: Evitar contraseñas genericas...
+
+
 
 ### Lista con viñetas
 Texto plano en una lista con viñetas:
@@ -38,53 +74,6 @@ Texto plano en una lista con viñetas:
 1. Lista
 2. Utilizando
 3. Números
-
-### Añade un enlace
-¡Añadiendo un enlace!
-[Ejemplo de enlace](https://www.davidlms.com)
-
-### Añade una imagen
-¡Añadiendo una imagen!
-
-![Descripción de la imagen](assets/portada.png)
-
-### Incrusta un iframe
-
-![https://codepen.io/tzoght/embed/yRNZaP](https://en.wikipedia.org/wiki/File:Example.jpg "Try Me Publisher")
-
-## Parte 1.2
-En esta segunda parte del proyecto, vas a elaborar una guía para bastionar el arranque de un sistema Debian actual a tu elección.
-
-<p align="center"><img src="assets/portada.png" width="400"></p>
-
-### Cajas de información
-Texto plano dentro de cajas de información verdes y amarillas
-
-Negative
-: Esto aparecerá en una caja de información amarilla.
-
-Positive
-: Esto aparecerá en una caja de información verde.
-
-¡Ya tienes tus cajas de información creadas!
-
-### Lista con viñetas
-Texto plano en una lista con viñetas:
-
-* Hola
-* CodeLab
-* Mundo
-
-¡Ya tienes tu lista con viñetas creada!
-
-### Lista numerada
-1. Lista
-2. Utilizando
-3. Números
-
-¡Ya tienes tu lista numerada creada!
-
-En la sección 2 vamos a añadir varios elementos más, una imagen entre ellos. Para añadir imágenes locales, crea una carpeta al lado de tu fichero .md llamada "img". Dentro de la misma, añade una imagen cualquiera que se llame prueba.png.
 
 ### Añade un enlace
 ¡Añadiendo un enlace!
